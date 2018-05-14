@@ -1,0 +1,8 @@
+{
+  "name": "RingMessenger",
+  "app_id": "4eac6968",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

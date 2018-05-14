@@ -1,0 +1,41 @@
+<ion-content class="no-scroll">
+  <div padding>
+    <div style="padding-top:10%">
+      <div class="app-icon">
+        <!-- <ion-icon name="ios-chatbubbles-outline"></ion-icon> -->
+        <img src="assets/images/logo-ring-app.png" alt="logo-ring">
+        <!-- <h3>Ring Messenger</h3> -->
+      </div>
+      <ion-list inset>
+        <form [formGroup]="emailPasswordForm">
+          <ion-item>
+            <ion-input type="text" formControlName="email" placeholder="Indirizzo Email"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="password" formControlName="password" placeholder="Password"></ion-input>
+            <!--button item-right ion-button clear color="gray" (click)="forgotPassword()" >Dimenticata ?</button--> 
+          </ion-item>
+          <div>
+            <button ion-button color="primary" block tappable (click)="login()" [disabled]="!emailPasswordForm.valid"><b>Accedi</b></button>
+            <div style="text-align:center">
+              <p><b>Accedi usando</b></p>
+              <!-- <button *ngIf="phoneLoginEnabled==true" ion-button block color="secondary" tappable (click)="loginProvider.phoneLogin()"><!-- <ion-icon name="phone-portrait"></ion-icon><b>Numero Cellulare</b></button><br> -->
+              <button *ngIf="facebookLoginEnabled==true" ion-button block color="facebook" tappable (click)="loginProvider.facebookLogin()">
+                <ion-icon name="ciao"></ion-icon><b>Accedi con Facebook</b></button><br>
+              <button *ngIf="googleLoginEnabled==true" ion-button block color="google" tappable (click)="loginProvider.googleLogin()">
+                <ion-icon name="ciao"></ion-icon><b>Accedi con Google</b></button><br>
+                <p>Oppure</p>
+                <button ion-button block color="secondary" tappable (click)="registerModel()"><!-- <ion-icon name="mail"></ion-icon> --><b>Registrati</b></button>
+                <!--button ion-button block color="grey" tappable (click)="forgotPassword()"><b>Password Dimenticata?</b></button-->
+                <!--br><p>Scopri di più</p-->
+                <button ion-button block color="balanced" tappable (click)="whatRing()"><ion-icon name="ciao"></ion-icon><b>Scopri cosa fa Ring?</b></button><br>
+                <!--button ion-button block color="danger" tappable (click)="watchVideo()"><b>Guarda Video</b></button-->
+          </div>
+          </div>
+        </form>
+      </ion-list>
+    </div>
+  </div>
+  
+  
+</ion-content>

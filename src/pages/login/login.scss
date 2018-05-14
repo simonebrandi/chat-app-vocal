@@ -1,0 +1,48 @@
+page-login {
+
+    ion-list, ion-item{
+      background:transparent
+    }
+    .app-icon{
+      font-size:50px;
+      color: $primary;
+      text-align: center;
+    }
+    .button-ios{
+      border-radius: 25px;
+    }
+    .content-ios{
+      color: white !important;
+      background: linear-gradient(to right, #2a1d4d, #c94c5c);
+    }
+    .item-ios{
+      background-color: transparent;
+      padding-left: 0px;
+      padding-left: 0px;
+    }
+    .item-ios.item-block .item-inner {
+      padding-right: 8px;
+      padding-right: 8px;
+      border-bottom: 0.55px solid transparent;
+    }
+    .list-ios[inset] .item {
+      border-bottom: 1px solid transparent;
+    }
+    .button-clear-ios-gray {
+      border-color: transparent;
+      color: #ffffff;
+      background-color: transparent;
+  }
+  .text-input-ios {
+    border: 1px dotted #fff;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  .item-ios {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+}
+  

@@ -1,0 +1,27 @@
+<ion-content>
+  <div class="app-icon">
+    <!-- <ion-icon name="ios-chatbubbles-outline" ></ion-icon> -->
+    <img src="assets/images/logo-ring-app.png" alt="logo-ring">
+    <h4>Diventa un Ringer!</h4>
+  </div>
+  <form [formGroup]="emailPasswordForm" padding>
+  <ion-list no-lines>
+    <ion-item>
+      <ion-input type="text" formControlName="fullname" placeholder="Nome completo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" formControlName="username" placeholder="Username"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" formControlName="email" placeholder="Indirizzo Email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" formControlName="password" placeholder="Password"></ion-input>
+    </ion-item>
+    <div padding>
+        <button ion-button block color="primary" (click)="register()" color="dark" [disabled]="!emailPasswordForm.valid">Registrati</button>
+    </div>
+    <button ion-button block clear color="dark" (click)="closeModel()"><ion-icon item-right name="ios-close-circle-outline"></ion-icon></button>
+  </ion-list>
+  </form>
+</ion-content>

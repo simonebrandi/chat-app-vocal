@@ -1,0 +1,53 @@
+page-register {
+    .app-icon{
+        font-size:50px;
+        color: $primary;
+        text-align: center;
+        min-height: 150px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background: #333;
+    }
+    .text-input-ios{
+        border: 2px solid #a7a7a7;
+        padding: 10px;
+    }
+    .button-ios{
+        border-radius: 25px;
+    }
+    .content-ios{
+        color: white;
+        background: linear-gradient(to right, #2a1d4d, #c94c5c);
+      }
+    .button-ios-dark {
+        color: #000000;
+        background-color: #fff;
+    }
+    ion-icon {
+        display: inline-block;
+        font-size: 1.6em;
+        color: #fff;
+    }
+    .app-icon {
+        font-size: 80px;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+        min-height: 150px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background: linear-gradient(to right, #2a1d4d, #c94c5c);
+    }
+    .item-ios {
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 1.2em;
+        font-style: italic;
+        color: #fff;
+    }
+    .text-input-ios {
+        border: 1px dotted #fff;
+        padding: 10px;
+        border-radius: 25px;
+    }
+}

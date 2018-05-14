@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar color="white">
+    <ion-title>Gruppi</ion-title>
+    <ion-buttons end>
+      <button ion-button color="primary" (click)="newGroup()"><ion-icon name="ios-add-circle-outline"></ion-icon></button>
+  </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <!-- No groups to show -->
+  <div class="empty-list" *ngIf="groups && groups.length <= 0">
+    <h1><ion-icon name="md-chatbubbles"></ion-icon></h1>
+    <p>Nessun gruppo presente.</p>
+  </div>
+  <!-- Show groups -->
+  <div *ngIf="groups && groups.length > 0">
+    <ion-searchbar [(ngModel)]="searchGroup" placeholder="Ricerca un gruppo" showCancelButton="true" cancelButtonText="Cerca"></ion-searchbar>
+    <ion-list no-lines>
+      <ion-item *ngFor="let group of groups | groupFilter: searchGroup" (click)="viewGroup(group.key)">
+        <ion-thumbnail item-start>
+          <img src="{{group.img}}">
+        
+        <h2 class="sizeFontMsg">{{group.name}}</h2>
+        <!--p>{{group.date | DateFormat}}</p-->
+        <ion-badge class="topBadge" item-right color="danger" *ngIf="group.unreadMessagesCount > 0">{{group.unreadMessagesCount}}</ion-badge>
+      </ion-thumbnail>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

@@ -1,0 +1,114 @@
+page-groups {
+  ion-col {
+    float: left;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  div.group {
+    text-align: center;
+    position: relative;
+
+    img {
+      margin-top: 1.25em;
+      border-radius: 100%;
+      width: 5em;
+      height: 5em;
+      object-fit: cover;
+    }
+
+    img.activated,
+    img:active {
+      opacity: 0.5;
+    }
+
+    ion-badge {
+      position: absolute;
+      top: 1em;
+      right: 3.5em;
+    }
+
+    p,
+    span {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      padding-left: 0.75em;
+      padding-right: 0.75em;
+    }
+
+    p {
+      margin-top: 0.5em;
+      margin-bottom: 0.2em;
+      color: $primary;
+      font-size: 100%;
+      display: block;
+    }
+
+    span {
+      color: $gray;
+      font-size: 90%;
+      display: block;
+      padding-bottom: 1.25em;
+    }
+  }
+
+  div.group.activated,
+  div.group:active {
+    opacity: 0.5;
+  }
+  .searchbar-ios {
+    padding: 0 8px;
+    min-height: 50px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #CBCBCB;
+    background: white;
+}
+
+ion-item.item.item-block.item-ios {
+  max-width: 33%;
+  float: left;
+}
+
+.item-ios ion-thumbnail ion-img, .item-ios ion-avatar img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+}
+
+.item-inner .input-wrapper .label.label-ios h2 {
+  font-size: 12px;
+}
+
+ion-label.label.label-ios {
+  overflow: visible;
+} 
+
+h2.sizeFontMsg {
+  font-size: 13px;
+  text-align: center;
+
+}
+
+ion-item.item.item-block.item-ios {
+  margin-top: 15px;
+}
+
+.item-ios ion-thumbnail ion-img, .item-ios ion-thumbnail img {
+  width: 80px;
+  height: 80px;
+}
+
+ion-badge.topBadge {
+  right: 30px;
+    position: absolute;
+    top: 0;
+}
+
+
+}

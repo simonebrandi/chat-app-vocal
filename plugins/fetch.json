@@ -1,0 +1,195 @@
+{
+  "cordova-plugin-console": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-console@^1.0.5"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@^1.1.4"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@^4.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@^1.3.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "ionic-plugin-keyboard": {
+    "source": {
+      "type": "registry",
+      "id": "ionic-plugin-keyboard@~2.2.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-contacts": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-contacts@^3.0.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CONTACTS_USAGE_DESCRIPTION": "we need to access contacts"
+    }
+  },
+  "cordova-plugin-media-capture": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-media-capture@~3.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-file": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file@^6.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-geolocation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-geolocation@^4.0.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "GEOLOCATION_USAGE_DESCRIPTION": "need to access geolocation"
+    }
+  },
+  "cordova-plugin-x-socialsharing": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-x-socialsharing@^5.2.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "es6-promise-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "es6-promise-plugin@^4.1.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@^2.4.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-ionic-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-ionic-webview@^1.1.16"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-facebook4": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook4@1.9.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "1495702363849235",
+      "APP_NAME": "FireChat",
+      "API_VERSION": "v1.1"
+    }
+  },
+  "cordova-plugin-googleplus": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-googleplus@^5.2.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "REVERSED_CLIENT_ID": "com.googleusercontent.apps.845839389008-s0scp3mghdi67t5ga9t56j6265ibonp5"
+    }
+  },
+  "cordova-plugin-firebase": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase@^0.1.25"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-accountkit": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-accountkit"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "186622051971676",
+      "APP_NAME": "Ring App",
+      "CLIENT_TOKEN": "40a454073f1297ab82418141fc3297c8"
+    }
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@~2.4.1"
+    },
+    "is_top_level": true,
+    "variables": {
+      "CAMERA_USAGE_DESCRIPTION": "your description text here",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": "your description text here"
+    }
+  },
+  "cordova-plugin-file-transfer": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file-transfer"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-sqlite-storage": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-sqlite-storage"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-media": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-media@5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.telerik.plugins.nativepagetransitions": {
+    "source": {
+      "type": "registry",
+      "id": "com.telerik.plugins.nativepagetransitions"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

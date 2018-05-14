@@ -1,0 +1,32 @@
+page-message {
+	ion-textarea{
+		font-size: 12px;
+		resize: both;
+	}
+	ion-footer {
+		left: 0;
+		bottom: 0;
+		min-height: 80px;
+		position: absolute;
+		z-index: 10;
+		display: block;
+		width: 100%;
+		background-color: #2a1d4f;
+	}
+	.item-inner{
+		display: none;
+	} 
+	.item-ios .item-button {
+		padding: 0 0.5em;
+		height: 40px;
+		font-size: 2rem;
+	}
+	.item-ios {
+		background-color: #2a1d4f;
+	}
+	.bottom_bar button ion-icon {
+		color: #c94c5c;
+	}
+
+	
+}

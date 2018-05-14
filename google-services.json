@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "605524315054",
+    "firebase_url": "https://ring-app-52e4b.firebaseio.com",
+    "project_id": "ring-app-52e4b",
+    "storage_bucket": "ring-app-52e4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605524315054:android:f05f33b2aaefb6d8",
+        "android_client_info": {
+          "package_name": "com.ring.ringmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605524315054-dhmltp6jnih29spir7lc9llfgh3oedad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ring.ringmessenger",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "605524315054-rs9rghiuaug0kov0c416127qehmtm5in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OWb-0UCz-xIPNLUQZ0A8NEOC8Y7-Hls"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605524315054-rs9rghiuaug0kov0c416127qehmtm5in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
